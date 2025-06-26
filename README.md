@@ -4,7 +4,140 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Kings - Softair Team</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Reset base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      background-color: #1c1f1d;
+      color: #eaeaea;
+      line-height: 1.6;
+      background-image: url('https://www.transparenttextures.com/patterns/green-camo.png');
+      background-repeat: repeat;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #2f4f2f;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 3px solid #556b2f;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+    }
+
+    /* NAV */
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      background-color: transparent;
+      padding: 0.5rem;
+    }
+
+    nav ul li {
+      margin: 0.5rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #cddc39;
+      padding: 0.5rem 1rem;
+      background-color: #1b1b1b;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #556b2f;
+      color: #fff;
+    }
+
+    /* SECTIONS */
+    section {
+      padding: 2rem;
+      border-bottom: 2px solid #444;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: #cddc39;
+      border-left: 5px solid #556b2f;
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    /* LISTS */
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* BLOCKQUOTE */
+    blockquote {
+      background-color: #2f2f2f;
+      border-left: 5px solid #cddc39;
+      padding: 1rem;
+      margin: 1rem 0;
+      font-style: italic;
+      color: #d4d4aa;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #2f4f2f;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    /* LINKS */
+    a {
+      color: #90ee90;
+    }
+
+    a:hover {
+      color: #cddc39;
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
